@@ -867,7 +867,7 @@ grafana:
   ## Configure additional grafana datasources (passed through tpl)
   ## ref: http://docs.grafana.org/administration/provisioning/#datasources
   additionalDataSources:
-   - name: thanos-query
+  - name: thanos-query
     #  access: proxy
   #   basicAuth: true
   #   basicAuthPassword: pass
